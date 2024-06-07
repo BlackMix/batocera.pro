@@ -264,7 +264,7 @@ if [[ "$(uname -a | grep "aarch64")" != "" ]]; then
 else
 echo
 echo -e "${RED}ERROR: SYSTEM NOT SUPPORTED"
-echo -e "${RED}YOU NEED BATOCERA X86_64${X}"
+echo -e "${RED}YOU NEED BATOCERA aarch64${X}"
 echo
 sleep 5
 exit 0
