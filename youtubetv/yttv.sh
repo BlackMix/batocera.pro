@@ -259,7 +259,7 @@ echo -e "${W}AND INSTALLED IN /USERDATA/SYSTEM/PRO/$APPNAME"
 echo 
 # --------------------------------------------------------------------
 # -- check system before proceeding
-if [[ "$(uname -a | grep "x86_64")" != "" ]]; then 
+if [[ "$(uname -a | grep "aarch64")" != "" ]]; then 
 :
 else
 echo
